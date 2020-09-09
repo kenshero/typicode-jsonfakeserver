@@ -1,0 +1,132 @@
+{
+    "posts": [
+      {
+        "id": 1,
+        "title": "Post 1"
+      },
+      {
+        "id": 2,
+        "title": "Post 2"
+      },
+      {
+        "id": 3,
+        "title": "Post 3"
+      }
+    ],
+    "storyQuest": {
+        "statistic": {
+            "storyQuestCompleted": 5,
+            "charityQuests": {
+                "success": 15,
+                "denied": 10,
+            },
+            "multiplayerQuests": {
+                "success": 15,
+                "denied": 10,
+            },
+            "abandonedAndSuccessRate": 0.2,
+        },
+        "storyQuests": [
+            {
+                "id": "",
+                "title": "Engineer Quest",
+                "questProgresses": [
+                    {
+                        "step": 1,
+                        "title": "Talk to NPC",
+                        "status": "Done"
+                    },
+                    {
+                        "step": 2,
+                        "title": "Talk to NPC",
+                        "status": "On going"
+                    }
+                ]
+            },
+            {
+                "id": "",
+                "title": "Doctor Quest",
+                "questProgresses": [
+                    {
+                        "step": 1,
+                        "title": "Talk to NPC",
+                        "status": "Done"
+                    },
+                    {
+                        "step": 2,
+                        "title": "Talk to NPC",
+                        "status": "On going"
+                    }
+                ]
+            }
+        ]
+    },
+    "libraryQuiz": {
+        "statistic": {
+            "quizCompleted": 5,
+            "passRate": "80%",
+            "mostSelectedQuiz": "Doer (56%)",
+            "likeAndDislike": "1/1"
+        },
+        "quizResults": {
+            "selections": [
+                {
+                    "id": "<quizID>",
+                    "name": "doer_quiz_a",
+                    "displayText": "Doer Quiz A"
+                },
+                {
+                    "id": "<quizID>",
+                    "name": "doer_quiz_b",
+                    "displayText": "Doer Quiz B"
+                },
+                {
+                    "id": "<quizID>",
+                    "name": "thinker_quiz_b",
+                    "displayText": "Thinker Quiz B"
+                }
+            ],
+            "results": [
+                {
+                    "quizID": "<quizID>",
+                    "quizName": "Doer Quiz A",
+                    "answer": [2,2,2,3,4],
+                    "score": 4,
+                    "result": {
+                        "text": "Fail",
+                        "color": "#FF0000"
+                    },
+                    "timeInSeconds": 180,
+                    "rating": "Dislike",
+                    "date": "<RFC3339>"
+                },
+                {
+                    "quizID": "<quizID>",
+                    "quizName": "Doer Quiz A",
+                    "answer": [2,2,2,3,4],
+                    "score": 4,
+                    "result": {
+                        "text": "Pass",
+                        "color": "#00FF00"
+                    },
+                    "timeInSeconds": 180,
+                    "rating": "Dislike",
+                    "date": "<RFC3339>"
+                },
+                {
+                    "quizID": "<quizID>",
+                    "quizName": "Thinker Quiz A",
+                    "answer": [2,2,2,3,4],
+                    "score": 4,
+                    "result": {
+                        "text": "Pass",
+                        "color": "#00FF00"
+                    },
+                    "timeInSeconds": 180,
+                    "rating": "Dislike",
+                    "date": "<RFC3339>"
+                }
+            ]
+        }
+    }
+  }
