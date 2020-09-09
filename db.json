@@ -18,13 +18,13 @@
             "storyQuestCompleted": 5,
             "charityQuests": {
                 "success": 15,
-                "denied": 10,
+                "denied": 10
             },
             "multiplayerQuests": {
                 "success": 15,
-                "denied": 10,
+                "denied": 10
             },
-            "abandonedAndSuccessRate": 0.2,
+            "abandonedAndSuccessRate": 0.2
         },
         "storyQuests": [
             {
